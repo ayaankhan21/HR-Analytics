@@ -1,7 +1,7 @@
 # HR Analytics: Employee Presence & Working Preferences
 
 ## Project Background
-I am working as a Data Analyst at **AtliQ Technologies**, a software and data solutions company. The company operates on a hybrid service-based business model. 
+Working as a Data Analyst at **Recruiter Wings**, a software and data solutions company. The company operates on a hybrid service-based business model. 
 
 In this role, I was tasked by the HR Manager to transition from manual Excel tracking to a data-driven automated dashboard. The core objective is to monitor employee presence, understand work-from-home (WFH) preferences, and track sick leave (SL) trends to optimize office space utilization and plan team engagement activities.
 
@@ -92,4 +92,5 @@ Based on the insights above, I recommend the **HR and Operations teams** conside
 * **Weighted Values:** Half-day WFH (HWFH) or Half-day Sick Leave (HSL) were counted as **0.5** in the quantitative measures to reflect actual work hours accurately.
 * **Data Gaps:** Data for the end of June contained some blank cells; these were filtered out to prevent trend lines from dropping to zero artificially.
 * **Data Cleaning:** The "unpivoting" process in Power Query assumes that any non-date column headers in the source Excel (after Name/Code) are errors and were removed via "Remove Errors."
+
 
