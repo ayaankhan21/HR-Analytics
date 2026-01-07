@@ -1,0 +1,26 @@
+1.Attendance %
+Attendance % = DIVIDE([Present Days],[Total Working Days],0)
+
+2.Present Days
+Present Days = 
+var Presentdays= CALCULATE(COUNT('Combined Data'[Value]),'Combined Data'[Value] ="P")
+
+RETURN Presentdays+[wfh count]
+
+3.Sick Leave count
+Sick Leave count = SUM('Combined Data'[Sick Leave Count])
+
+4.Sick Leave %
+SL % = DIVIDE([Sick Leave count],[Present Days],0)
+
+5.Total Working Days 
+Total Working Days= 
+var totalday= COUNT('Combined Data'[Value])
+var nonworkingdays= CALCULATE(COUNT('Combined Data'[Value]),'Combined Data'[Value] in { "WO","HO"})
+RETURN totalday-nonworkingdays
+
+6.WorkFromHome %
+WFH % = DIVIDE([wfh count],[Present Days],0)
+
+7.WorkFromHome Count
+wfh count = SUM('Combined Data'[WFH count])
