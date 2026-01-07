@@ -18,7 +18,7 @@ In this role, I was tasked by the HR Manager to transition from manual Excel tra
 [Link to Queries](https://github.com/ayaankhan21/HR-Analytics/blob/main/DAX%20Queries.txt)
 
 * An interactive Power BI dashboard used to report and explore HR trends can be found here 
-[[Dashboard]](https://github.com/ayaankhan21/HR-Analytics/blob/main/dashboard.JPG).
+![Dashboard Preview](https://github.com/ayaankhan21/HR-Analytics/blob/main/dashboard.JPG).
 
 ---
 
@@ -93,6 +93,7 @@ Based on the insights above, I recommend the **HR and Operations teams** conside
 * **Weighted Values:** Half-day WFH (HWFH) or Half-day Sick Leave (HSL) were counted as **0.5** in the quantitative measures to reflect actual work hours accurately.
 * **Data Gaps:** Data for the end of June contained some blank cells; these were filtered out to prevent trend lines from dropping to zero artificially.
 * **Data Cleaning:** The "unpivoting" process in Power Query assumes that any non-date column headers in the source Excel (after Name/Code) are errors and were removed via "Remove Errors."
+
 
 
 
